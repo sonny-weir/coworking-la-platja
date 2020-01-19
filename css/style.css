@@ -37,6 +37,10 @@ h1 {
   font-size: 2em;
 }
 
+footer {
+  font-size: 0.8em;
+}
+
 .bluetext {
   color: #97c0e8;
   line-height: 1.25em;
