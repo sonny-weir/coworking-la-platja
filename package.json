@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/sonny-weir/coworking-la-platja/issues"
   },
-  "homepage": "https://github.com/sonny-weir/coworking-la-platja#readme",
+  "homepage": "https://coworking-la-platja.com",
   "dependencies": {
     "gh-pages": "^2.2.0"
   }
