@@ -60,3 +60,11 @@ li {
 .oswald {
   font-family: oswald-medium, oswald, sans-serif;
 }
+
+/* Media queries */
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
