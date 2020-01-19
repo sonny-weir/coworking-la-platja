@@ -4,6 +4,7 @@ body {
   line-height: 1.5;
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 
 .container {
@@ -12,7 +13,64 @@ body {
   overflow: hidden;
 }
 
+#branding {
+  margin: 22px 0px 22px 0px;
+  color: #181818;
+}
 header {
   font-size: 22px;
   font-family: oswald-medium, oswald, sans-serif;
+  min-height: 70px;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #282828;
+}
+
+h1 {
+  font-size: 72px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.bluetext {
+  font-family: oswald-medium, oswald, sans-serif;
+  color: #97c0e8;
+  line-height: 1.25em;
+}
+
+.line {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 7px;
+  margin-left: calc((100% - 980px) * 0.5);
+  left: 20px;
+  position: relative;
+  border-top: 1px solid rgba(24, 24, 24, 0.85);
+}
+
+li {
+  font-size: 14px;
+  line-height: 1.79em;
+  font-family: avenir-lt-w01_35-light1475496, sans-serif;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.67em;
+  font-family: avenir-lt-w01_35-light1475496, sans-serif;
 }
