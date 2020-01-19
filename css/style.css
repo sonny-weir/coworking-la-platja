@@ -65,7 +65,7 @@ li {
 /* Google map */
 .google-maps {
   position: relative;
-  padding-bottom: 75%; // This is the aspect ratio
+  padding-bottom: 75%; /* This is the aspect ratio */
   height: 0;
   overflow: hidden;
 }
@@ -82,5 +82,21 @@ li {
 @media (max-width: 768px) {
   .container {
     width: 90%;
+  }
+
+  .imgDisconnect {
+    max-width: 100%;
+  }
+
+  .imgShower {
+    max-width: 50%;
+  }
+
+  .imgKitchen {
+    max-width: 100%;
+  }
+
+  .imgMeetingRoom {
+    max-width: 100%;
   }
 }
