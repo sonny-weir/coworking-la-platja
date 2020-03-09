@@ -82,6 +82,7 @@
     <footer>
       &copy; Coworking La Platja
     </footer>
+
     <script type="text/javascript" data-cfasync="false">
       window.purechatApi = {
         l: [],
@@ -107,6 +108,18 @@
           }
         };
       })();
+
+      var $zoho = $zoho || {};
+      $zoho.salesiq = $zoho.salesiq || { widgetcode: "f3a057c96bc2850b6af569abf76014565e5ec90c15d5c2c2eb720b2cf2f12f63aad01427156f34903ba834c61f083038", values: {}, ready: function() {} };
+      var d = document;
+      s = d.createElement("script");
+      s.type = "text/javascript";
+      s.id = "zsiqscript";
+      s.defer = true;
+      s.src = "https://salesiq.zoho.eu/widget";
+      t = d.getElementsByTagName("script")[0];
+      t.parentNode.insertBefore(s, t);
+      d.write("<div id='zsiqwidget'></div>");
     </script>
   </body>
 </html>
