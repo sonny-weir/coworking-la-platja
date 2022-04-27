@@ -17,7 +17,7 @@
     <meta name="description" content="Need to work hard? Might as well enjoy it! Barcelona - Coworking La Platja" />
     <meta name="keywords" content="Coworking Barcelona, Coworking Beach, Coworking Poblenou" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css" />
     <title>Coworking La Platja - Barcelona</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -65,10 +65,7 @@
       <section id="contact">
         <h2>More information?</h2>
         <p>If you would like to see the office simply come by, or if you have any questions before-hand you can contact us using the messenger on this site, phone, or mail.</p>
-        <div style="display:flex; vertical-align:middle; justify-content: center;">
-          <a href="https://wa.me/0034617752918" target="_blank"> <img src="./img/whatsapp.png" style="width: 2rem;"></a>
-          <p>+34 617 752 918</p>
-          <a href="https://t.me/+34617752918" target="_blank"> <img src="./img/telegram.png" style="width: 2rem;"></a></div>
+        <p>+34 617 752 918</p>
         <p>info@coworking-la-platja.com</p>
         <div class="google-maps">
           <iframe
@@ -85,9 +82,31 @@
     <footer>
       &copy; Coworking La Platja
     </footer>
-
-    <script type="text/javascript">
-
+    <script type="text/javascript" data-cfasync="false">
+      window.purechatApi = {
+        l: [],
+        t: [],
+        on: function() {
+          this.l.push(arguments);
+        }
+      };
+      (function() {
+        var done = false;
+        var script = document.createElement("script");
+        script.async = true;
+        script.type = "text/javascript";
+        script.src = "https://app.purechat.com/VisitorWidget/WidgetScript";
+        document
+          .getElementsByTagName("HEAD")
+          .item(0)
+          .appendChild(script);
+        script.onreadystatechange = script.onload = function(e) {
+          if (!done && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")) {
+            var w = new PCWidget({ c: "de6848d0-d792-4b9d-bce9-4790e654a5c4", f: true });
+            done = true;
+          }
+        };
+      })();
     </script>
   </body>
 </html>
