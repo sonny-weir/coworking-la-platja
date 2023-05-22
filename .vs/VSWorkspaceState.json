@@ -3,8 +3,9 @@
     "",
     "\\dist",
     "\\dist\\css",
+    "\\dist\\images",
     "\\dist\\sass"
   ],
-  "SelectedNode": "\\dist\\sass\\style.scss",
+  "SelectedNode": "\\dist\\index.html",
   "PreviewInSolutionExplorer": false
 }
