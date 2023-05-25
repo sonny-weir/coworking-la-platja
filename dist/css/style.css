@@ -397,7 +397,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-home .text-inner h1 span {
   font-size: 14px;
   text-transform: uppercase;
-  display: block;
+  /*display: block;*/
   line-height: 20px;
 }
 #fh5co-home .text-inner h1 .big {
